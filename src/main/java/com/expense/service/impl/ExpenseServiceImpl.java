@@ -28,7 +28,8 @@ public class ExpenseServiceImpl implements ExpenseService {
 	@Override
 	public Expense saveExpense(Expense expense) {
 		
-		//Buggy Code(ExpenseServiceTest.saveExpenseTest())
+		Buggy Code(ExpenseServiceTest.saveExpenseTest())
+		
 		expense.setAmount(2000.00);
 		return expense;
 		
@@ -53,7 +54,7 @@ public class ExpenseServiceImpl implements ExpenseService {
 
 	@Override
 	public void deleteById(Long expenseId) {
-		//Buggy Code(ExpenseControllerTest.testDeleteExpense())
+		Buggy Code(ExpenseControllerTest.testDeleteExpense())
 		log.info("Debug delete");
 		
 		//Correct Code
